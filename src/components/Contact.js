@@ -1,4 +1,3 @@
-/* eslint-disable comma-dangle */
 import React, { useState, useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import emailjs from "@emailjs/browser";

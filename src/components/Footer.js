@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import React from "react";
 import "../assets/styles/footer.scss";
 import { AiFillPhone } from "react-icons/ai";

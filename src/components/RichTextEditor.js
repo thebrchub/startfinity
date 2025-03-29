@@ -1,5 +1,3 @@
-/* eslint-disable no-constant-condition */
-/* eslint-disable import/no-extraneous-dependencies */
 import React, { useState } from 'react';
 import { Editor } from 'react-draft-wysiwyg';
 import { EditorState, convertToRaw } from 'draft-js';

@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 import React, { useState, useEffect } from "react";
 import { Slide, Bounce } from "react-awesome-reveal";
 import { NavLink } from "react-router-dom";
