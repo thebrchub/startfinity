@@ -19,22 +19,16 @@
   ],
   "plugins": ["react"],
   "rules": {
+    "linebreak-style": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": false,
-        "optionalDependencies": false,
-        "peerDependencies": false,
-        "packageDir": "./"
-      }
-    ],
-    "max-len": ["error", { "code": 5000 }],
-    "react/jsx-quotes": "off"
+    "import/no-extraneous-dependencies": "off",
+    "max-len": "off",
+    "react/jsx-quotes": "off",
+    "quotes": "off"
   },
   "ignorePatterns": [
     "dist/",
