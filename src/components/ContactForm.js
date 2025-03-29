@@ -59,7 +59,7 @@ export default function ContactForm() {
                 <p className="form-col-one"><span><MdLocationOn /></span></p>
                 <p className="form-col-two">
                   <i>Address: </i>
-                  123 Business Park, Mumbai, India
+                  Gandhinagr, Ahmedabad, Gujarat, India
                 </p>
               </li>
               <li>

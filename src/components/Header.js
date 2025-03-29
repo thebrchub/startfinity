@@ -191,9 +191,9 @@ export default function Header() {
       <Slide triggerOnce duration={1500}>
         <h1 id="hero-infos">
           <span id="hero-title">
-            Startfinity Navigator Private Limited
+            
             <br />
-            Your Partner for Business Success
+            
           </span>
           <a href="/kontakt#kontakt-forma" className="consultation-btn">
             SCHEDULE A CONSULTATION

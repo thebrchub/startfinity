@@ -22,7 +22,7 @@ export default function PracticeArea() {
             </div>
             <div className="details">
               <h3 className="details-h3 margin-none">
-                BUSINESS SETUP & ASSET MANAGEMENT
+                KICK START YOUR BUSINESS
               </h3>
               <ReadMoreOrLess limit={56}>
                 We assist you in establishing your business from the ground up, managing company registration, licensing, and initial asset management to build a strong foundation.
