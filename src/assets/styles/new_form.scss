@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(45deg, goldenrod, transparent);
+  background: linear-gradient(45deg, rgb(25, 78, 162), transparent);
 }
 
 .company-info ul {
@@ -39,7 +39,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
-  color: white;
+  color: rgb(10, 165, 237);
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@
   border-radius: 50%;
   background: rgb(0, 0, 0);
   margin: 0;
-  color: whitesmoke;
+  color: rgb(9, 132, 209);
 }
 
 .form-col-two {
@@ -84,7 +84,7 @@
 }
 
 .contact{
-  background:#f9feff;
+  background:#1ac3e9;
 }
 
 .contact form {
@@ -110,7 +110,7 @@
 .contact form textarea{
   width:100%;
   padding:1em;
-  border: 1px solid #ced4da;
+  border: 1px solid #1ac3e9;
   font-size: 1rem;
   font-family: fangsong;
 }
@@ -122,10 +122,10 @@
 }
 
 .contact form .control-btn:hover {
-  color: #f8cb2e;;
+  color: #1ac3e9;;
   background-color: #000;
   background-image: none;
-  border: 1px solid #f8cb2e;
+  border: 1px solid #1ac3e9;
 }
 
 @media(min-width:701px){

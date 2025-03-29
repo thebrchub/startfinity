@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #fff;
+    color: #1ac3e9;
     margin: 0 50px;
 
     div {
@@ -40,7 +40,7 @@
     }
 
     h2 {
-    color: rgba(255, 250, 240, 0.892);
+    color: rgba(13, 146, 207, 0.892);
     font-size: 32px;
   }
   
@@ -49,11 +49,11 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    color: navajowhite;
+    color: rgb(18, 201, 225);
     font-weight: bold;
 
     .icon {
-      color: navajowhite;
+      color: rgb(7, 182, 188);
 
     }
   }
@@ -77,9 +77,9 @@ h1 {
     background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(242, 234, 74, 0.66);
+    -webkit-text-stroke-color: rgba(9, 180, 232, 0.66);
     font-size: 4.5rem;
-    color: floralwhite;
+    color: rgb(4, 227, 231);
     background: rgba(0, 0, 0, 0.6);
   }
 }
@@ -102,7 +102,7 @@ h1 {
 }
 
 .consultation-btn:hover {
-  color: rgb(193, 158, 63);
+  color: rgb(63, 193, 178);
   background-color: #000;
   background-image: none;
   }
@@ -113,7 +113,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #3c1414;
-  color: #fff;
+  color: #1ac3e9;
   height: 25px;
   
   p {
@@ -137,7 +137,7 @@ h1 {
   }
 
   .nav-items li a:hover {
-    border-bottom: 1px solid rgb(210 166 78);
+    border-bottom: 1px solid rgb(7, 116, 159);
   }
   
   ul {
@@ -177,14 +177,14 @@ h1 {
   .hor-linez {
     width: 85% !important;
     height: 0.5px !important;
-    background-color: rgba(255, 255, 255, 0.482) !important;
+    background-color: rgba(14, 149, 221, 0.906) !important;
     border: none !important;
   }
 
 @media only screen and (min-width: 481px) and (max-width: 769px) {
   .hamburger-react {
     display: initial;
-    color: white;
+    color: rgb(5, 157, 233);
   }
 
   #header {
@@ -313,7 +313,7 @@ h1 {
 @media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
   .hamburger-react {
     display: initial;
-    color: #EEE3CB;
+    color: #0facea;
   }
 
   #header {
@@ -340,7 +340,7 @@ h1 {
       justify-content: center;
       align-items: center;
       margin-top: 19px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 1px solid rgba(13, 140, 172, 0.2);
     }
   
     .active,
@@ -437,7 +437,7 @@ h1 {
   #header > #hero-infos {
     #hero-title {
     font-size: 3.5rem;
-    color: floralwhite;
+    color: rgb(3, 185, 222);
     background: rgba(0, 0, 0, 0.6);
     }
   }
@@ -458,7 +458,7 @@ h1 {
 @media only screen and (min-width: 769px) and (max-width: 834px) and (orientation: landscape) {
   .hamburger-react {
     display: initial;
-    color: #EEE3CB;
+    color: #1ac3e9;
   }
 
   #header {
@@ -558,7 +558,7 @@ h1 {
   #header > #hero-infos {
     #hero-title {
     font-size: 3.5rem;
-    color: floralwhite;
+    color: rgb(22, 170, 207);
     background: rgba(0, 0, 0, 0.6);
     }
   }
@@ -613,7 +613,7 @@ h1 {
 @media only screen and (min-width: 320px) and (max-width: 481px) {
   .hamburger-react {
     display: initial;
-    color: white;
+    color: rgb(16, 145, 215);
   }
   
   #header {
@@ -757,7 +757,7 @@ h1 {
   @media only screen and (min-device-width: 1025px) and (max-device-width: 1168px) and (orientation: landscape) {
     .hamburger-react {
       display: initial;
-      color: #EEE3CB;
+      color: #1ac3e9;
     }
   
     #header {
@@ -857,7 +857,7 @@ h1 {
     #header > #hero-infos {
       #hero-title {
       font-size: 3.5rem;
-      color: floralwhite;
+      color: rgb(18, 145, 171);
       background: rgba(0, 0, 0, 0.6);
       }
     }
@@ -894,7 +894,7 @@ h1 {
   @media only screen and (min-width: 1169px) and (max-width: 1367px) and (orientation: landscape) {
     .hamburger-react {
       display: initial;
-      color: #EEE3CB;
+      color: #1ac3e9;
     }
   
     #header {
