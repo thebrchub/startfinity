@@ -191,9 +191,7 @@ export default function Header() {
       <Slide triggerOnce duration={1500}>
         <h1 id="hero-infos">
           <span id="hero-title">
-            
             <br />
-            
           </span>
           <a href="/kontakt#kontakt-forma" className="consultation-btn">
             SCHEDULE A CONSULTATION
