@@ -1,0 +1,13 @@
+# Force LF for all text files
+* text=auto eol=lf
+
+# Treat all shell scripts as text and enforce LF
+*.sh text eol=lf
+
+# Treat all Windows batch scripts as text but keep CRLF
+*.bat text eol=crlf
+
+# Mark binary files (no line ending conversion)
+*.png binary
+*.jpg binary
+*.exe binary
