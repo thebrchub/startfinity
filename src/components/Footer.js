@@ -4,14 +4,14 @@ import "../assets/styles/footer.scss";
 import { AiFillPhone } from "react-icons/ai";
 import { MdLocationOn, MdEmail } from "react-icons/md";
 import { BsFacebook } from "react-icons/bs";
-import bannerImg from "../assets/images/balance.png";
+// import bannerImg from "../assets/images/balance.png";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-banner">
+      {/* <div className="footer-banner">
         <img src={bannerImg} alt="Balance Snapshot" />
-      </div>
+      </div> */}
       <div className="footer-wrapper">
         <div className="container">
           <div className="rowy">
