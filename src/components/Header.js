@@ -93,7 +93,7 @@ export default function Header() {
               PROCEDURES
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 6 }}>
+          {/* <li style={{ "--animation-order": 6 }}>
             <NavLink
               to="/tarifa#tarifa-info"
               onClick={handleClick}
@@ -101,7 +101,7 @@ export default function Header() {
             >
               PRICING
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 7 }}>
             <NavLink
               to="/kontakt#kontakt-forma"
@@ -161,14 +161,14 @@ export default function Header() {
               PROCEDURES
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 6 }}>
+          {/* <li style={{ "--animation-order": 6 }}>
             <NavLink
               to="/tarifa#tarifa-info"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               PRICING
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 7 }}>
             <NavLink
               to="/kontakt#kontakt-forma"
