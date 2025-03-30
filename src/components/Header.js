@@ -65,7 +65,7 @@ export default function Header() {
               ABOUT US
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 3 }}>
+          {/* <li style={{ "--animation-order": 3 }}>
             <NavLink
               to="/blogovi#blog-lista"
               onClick={handleClick}
@@ -73,14 +73,14 @@ export default function Header() {
             >
               BLOG
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 4 }}>
             <NavLink
               to="/pravne-oblasti#lista-oblasti"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
-              AREAS
+              SERVICES
             </NavLink>
           </li>
           <li style={{ "--animation-order": 5 }}>
@@ -136,14 +136,14 @@ export default function Header() {
               ABOUT US
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 3 }}>
+          {/* <li style={{ "--animation-order": 3 }}>
             <NavLink
               to="/blogovi#blog-lista"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               BLOG
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 4 }}>
             <NavLink
               to="/pravne-oblasti#lista-oblasti"
