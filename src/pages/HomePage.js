@@ -20,7 +20,8 @@ export default function HomePage() {
       <Quote />
       <PracticeArea />
       <Contact />
-      <Blogs />
+      <br/>
+      {/* <Blogs /> */}
     </>
   );
 }
