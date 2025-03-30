@@ -68,6 +68,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <br/>
+
                 <div className="social-links">
                   <a
                     href="https://www.facebook.com/startfinitynavigator"
@@ -97,6 +98,7 @@ export default function Footer() {
         {/* Disclaimer Section */}
         <div className="footer-disclaimer">
           <p><strong>Disclaimer:</strong> We are a Start-up consultant in India and professionals in Start-up consultation and understand the requirements of today’s enterprises. We are merely a consultancy service-providing company and not in any affiliation/collaboration with any Government/Non-Government Agency / Institutions / Organization / Department.</p>
+          
           <br/>
           <p><strong>Note:</strong> Payments for services are only accepted in the name of Startfinity Navigator Private Limited, and the type of account is solely “Current Account” via NEFT/IMPS/RTGS and digital payment wallets (Cash Free, Razor pay, Aggrepay) and we do not accept payments on personal accounts or under any other name.</p>
         </div>

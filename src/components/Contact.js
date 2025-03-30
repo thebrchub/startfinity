@@ -81,9 +81,9 @@ export default function Contact() {
               </div>
               <input
                 type="text"
-                name="subject"
+                name="mobile"
                 className="form-control full"
-                placeholder="Subject"
+                placeholder="Mobile No."
                 onChange={(e) => setSubject(e.target.value)}
                 value={subject}
                 required
