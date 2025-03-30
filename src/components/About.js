@@ -14,7 +14,7 @@ export default function About() {
             <p className="text">
               {`Startfinity Navigator Private Limited is a premier business consultancy firm dedicated to empowering entrepreneurs and enterprises across India. Our mission is to simplify the complexities of business operations—handling registrations, compliance, taxation, and strategic advisory—so that you can focus on expanding your vision. We offer a comprehensive suite of services tailored to meet the unique needs of startups, SMEs, and large enterprises alike. With a commitment to professionalism, innovation, and personalized support, we work relentlessly to help your business succeed in a competitive market.`.substring(0, 480)}
               <a
-                href="/about#more"
+                href="/o-meni#opsirnije"
                 className="read-more-btn"
                 style={{
                   color: 'chocolate',
