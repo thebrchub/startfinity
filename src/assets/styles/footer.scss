@@ -76,9 +76,10 @@
   }  
 }
 
-.rowy{
-	display: flex;
-	flex-wrap: wrap;
+.rowy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers items horizontally */
 }
 
 .footer-col {
@@ -168,6 +169,20 @@
 	color: #24262b;
 	background-color: #fff;
 }
+
+.footer-disclaimer {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff; /* White text */
+  // background: #222; /* Dark background */
+  border-radius: 5px;
+}
+
+.footer-disclaimer strong {
+  color: #fff; /* Ensure bold text is also white */
+}
+
 
 @media(max-width: 767px){
   .footer-col{
