@@ -124,15 +124,26 @@ h1 {
 #nav {
   display: flex;
   flex-wrap: wrap;
+  overflow: visible;
+  
   // background: rgb(0 0 0 / 60%);
 
   .nav-items li a {
     text-decoration: none;
-    color: rgb(29, 11, 230); /* Set text color to dark blue */
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    color: rgb(27, 29, 134); /* Set text color to dark blue */
     background: none; /* Remove background image */
+    padding: 5px 8px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out, background 0.3s eas-in-out;
+    
 }
-  .nav-items li a:hover {
-    border-bottom: 3px solid rgb(7, 116, 159);
+.nav-items li a:hover {
+  background-color: rgba(21, 183, 248, 0.3);
+  border-radius: 10px;
+  display: inline-block;
+  transform: scale(1.05);
   }
   
   ul {
@@ -147,8 +158,24 @@ h1 {
     
     
     #user-logo {
-      align-self: flex-start;
+      display: flex; /* Keeps alignment consistent */
+      align-items: left; /* Centers logo vertically */
+      padding: 0 !important; /* Prevents extra spacing */
+      margin-left: 0 !important; /* Ensures no movement */
       margin-right: auto;
+  
+  
+  #user-logo a {
+      display: inline-block;
+  }
+  
+  #user-logo a:hover {
+      background: none !important;
+      transform: none !important;
+      padding: inherit !important; /* Ensures padding remains same */
+      margin: inherit !important; /* Prevents shifting */
+  }
+
       
       img {
         height: 72px;
@@ -157,6 +184,7 @@ h1 {
     }
   }
 }
+
 
   #nav > .nav-items {
     overflow-y: scroll;
@@ -352,6 +380,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
+    
+    
   }
 
   .transparent {
@@ -947,4 +977,17 @@ h1 {
   20% { margin-left:-800px; opacity: 0.50; }
   35% { margin-left:0px;  opacity: 0.85;}
   100% { margin-left:0px; opacity: 1; }
+}
+#user-logo:hover,
+#user-logo a:hover {
+    background: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    filter: none !important;  /* Removes any brightness or color effects */
+}
+#user-logo img:hover {
+  transform: none !important;
+  background: none !important;
+  filter: none !important;
 }
