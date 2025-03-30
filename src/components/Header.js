@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import React, { useState, useEffect } from "react";
 import { Slide, Bounce } from "react-awesome-reveal";
 import { NavLink } from "react-router-dom";
@@ -65,7 +66,7 @@ export default function Header() {
               ABOUT US
             </NavLink>
           </li>
-          {/* <li style={{ "--animation-order": 3 }}>
+          <li style={{ "--animation-order": 3 }}>
             <NavLink
               to="/blogovi#blog-lista"
               onClick={handleClick}
@@ -73,7 +74,7 @@ export default function Header() {
             >
               BLOG
             </NavLink>
-          </li> */}
+          </li>
           <li style={{ "--animation-order": 4 }}>
             <NavLink
               to="/pravne-oblasti#lista-oblasti"
@@ -89,10 +90,10 @@ export default function Header() {
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
-              PROCESS
+              PROCEDURES
             </NavLink>
           </li>
-          {/* <li style={{ "--animation-order": 6 }}>
+          <li style={{ "--animation-order": 6 }}>
             <NavLink
               to="/tarifa#tarifa-info"
               onClick={handleClick}
@@ -100,7 +101,7 @@ export default function Header() {
             >
               PRICING
             </NavLink>
-          </li> */}
+          </li>
           <li style={{ "--animation-order": 7 }}>
             <NavLink
               to="/kontakt#kontakt-forma"
@@ -136,14 +137,14 @@ export default function Header() {
               ABOUT US
             </NavLink>
           </li>
-          {/* <li style={{ "--animation-order": 3 }}>
+          <li style={{ "--animation-order": 3 }}>
             <NavLink
               to="/blogovi#blog-lista"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               BLOG
             </NavLink>
-          </li> */}
+          </li>
           <li style={{ "--animation-order": 4 }}>
             <NavLink
               to="/pravne-oblasti#lista-oblasti"
@@ -160,14 +161,14 @@ export default function Header() {
               PROCEDURES
             </NavLink>
           </li>
-          {/* <li style={{ "--animation-order": 6 }}>
+          <li style={{ "--animation-order": 6 }}>
             <NavLink
               to="/tarifa#tarifa-info"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               PRICING
             </NavLink>
-          </li> */}
+          </li>
           <li style={{ "--animation-order": 7 }}>
             <NavLink
               to="/kontakt#kontakt-forma"
@@ -202,18 +203,14 @@ export default function Header() {
       <Bounce triggerOnce>
         <div id="nav-footer">
           <div>
-            <h2>Mumbai, India</h2>
+            <h2> hi                           </h2>
             <i>
               <MdLocationOn className="icon" />
               Location
             </i>
           </div>
           <div>
-            <h2>+91 12345 67890</h2>
-            <i>
-              <AiFillPhone className="icon" />
-              Contact
-            </i>
+            <h2>               </h2>
           </div>
         </div>
       </Bounce>
