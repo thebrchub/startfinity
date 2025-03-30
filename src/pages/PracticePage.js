@@ -4,10 +4,10 @@ import SEO from '../components/SEO';
 import '../assets/styles/style-pages/practice_page.scss';
 import cardImg1 from '../assets/images/card-img-1.png';
 import cardImg2 from '../assets/images/card-img-2.jpg';
-import cardImg3 from '../assets/images/corporate.jpg';
+// import cardImg3 from '../assets/images/corporate.jpg';
 import cardImg4 from '../assets/images/card-img-4.jpg';
 import cardImg5 from '../assets/images/card-img-5.jpg';
-import cardImg7 from '../assets/images/card-img-7.jpg';
+// import cardImg7 from '../assets/images/card-img-7.jpg';
 
 export default function PracticePage() {
   return (
@@ -28,33 +28,23 @@ export default function PracticePage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-red">
-              BUSINESS SETUP &<br />
-              ASSET MANAGEMENT
+              Kick Start Your<br />
+              Business
             </h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
             </div>
             <div className="postcard__bar" />
             <div className="postcard__preview-txt">
-              We assist in establishing your business and managing assets efficiently.
-              Our services cover everything from company registration to strategic asset management,
-              ensuring a strong and sustainable business foundation.
+              We provide comprehensive support to launch your venture—from company registration and trademark filing to annual compliances, BIS certification, and Make in India guidance.
             </div>
             <Fade triggerOnce damping={0.1} cascade>
               <ul className="postcard__tagbox">
                 <li className="tag__item play red">Business Registration</li>
-                <li className="tag__item play red">Corporate Structuring</li>
-                <li className="tag__item play red">Asset Management Solutions</li>
-                <li className="tag__item play red">Operational Efficiency</li>
-                <li className="tag__item play red">Financial Planning</li>
-                <li className="tag__item play red">Tax Advisory Services</li>
-                <li className="tag__item play red">Compliance Consulting</li>
-                <li className="tag__item play red">Risk Management Strategies</li>
-                <li className="tag__item play red">Investment Planning</li>
-                <li className="tag__item play red">Strategic Advisory</li>
-                <li className="tag__item play red">Business Optimization</li>
-                <li className="tag__item play red">Growth Strategy Development</li>
-                <li className="tag__item play red">M&A Support</li>
+                <li className="tag__item play red">Trademark Registration</li>
+                <li className="tag__item play red">Annual Compliances</li>
+                <li className="tag__item play red">BIS Certification</li>
+                <li className="tag__item play red">Make in India</li>
               </ul>
             </Fade>
           </div>
@@ -65,26 +55,22 @@ export default function PracticePage() {
             <img className="postcard__img" src={cardImg2} alt="Contracts & Regulatory Compliance" />
           </div>
           <div className="postcard__text">
-            <h1 className="postcard__title hov-blue">CONTRACTS & REGULATORY COMPLIANCE</h1>
+            <h1 className="postcard__title hov-blue">FUNDING CONSULTATION</h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
             </div>
             <div className="postcard__bar" />
             <div className="postcard__preview-txt">
-              We offer expert guidance on drafting, negotiating, and managing contracts while ensuring
-              strict adherence to regulatory requirements. Our tailored solutions safeguard your business interests.
+              Our experts help you access government grants & loans, Startup India SEED Fund, MSME loans, state schemes, and connect with venture capital and angel investors.
             </div>
             <Fade triggerOnce damping={0.1} cascade>
               <ul className="postcard__tagbox">
-                <li className="tag__item play blue">Contract Drafting</li>
-                <li className="tag__item play blue">Negotiation Support</li>
-                <li className="tag__item play blue">Regulatory Compliance</li>
-                <li className="tag__item play blue">Risk Mitigation</li>
-                <li className="tag__item play blue">Service Agreements</li>
-                <li className="tag__item play blue">Partnership Contracts</li>
-                <li className="tag__item play blue">Vendor Agreements</li>
-                <li className="tag__item play blue">Non-Disclosure Agreements</li>
-                <li className="tag__item play blue">Dispute Resolution</li>
+                <li className="tag__item play blue">Govt. Grants & Loans</li>
+                <li className="tag__item play blue">Startup India SEED Fund</li>
+                <li className="tag__item play blue">MSME Loans</li>
+                <li className="tag__item play blue">State Schemes</li>
+                <li className="tag__item play blue">Venture Capital</li>
+                <li className="tag__item play blue">Angel Investors</li>
               </ul>
             </Fade>
           </div>
@@ -95,28 +81,21 @@ export default function PracticePage() {
             <img className="postcard__img" src={cardImg4} alt="Family Business & Succession Planning" />
           </div>
           <div className="postcard__text__long">
-            <h1 className="postcard__title hov-green">FAMILY BUSINESS & SUCCESSION PLANNING</h1>
+            <h1 className="postcard__title hov-green">CERTIFICATION:</h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
             </div>
             <div className="postcard__bar" />
             <div className="postcard__preview-txt">
-              We provide strategic advisory for family-owned businesses,
-              assisting in leadership transition and succession planning.
-              Our expert guidance helps preserve your business legacy for future generations.
+              Obtain essential certifications including Startup India, Tax Exemption, MSME Registration, GEM Registration, and compliance with ZED, ISO & IEC standards.
             </div>
             <Fade triggerOnce damping={0.1} cascade>
               <ul className="postcard__tagbox">
-                <li className="tag__item play green">Succession Planning</li>
-                <li className="tag__item play green">Leadership Transition</li>
-                <li className="tag__item play green">Family Business Advisory</li>
-                <li className="tag__item play green">Inheritance Strategy</li>
-                <li className="tag__item play green">Legacy Management</li>
-                <li className="tag__item play green">Estate Planning</li>
-                <li className="tag__item play green">Governance Structures</li>
-                <li className="tag__item play green">Conflict Resolution</li>
-                <li className="tag__item play green">Continuity Planning</li>
-                <li className="tag__item play green">Strategic Advisory</li>
+                <li className="tag__item play green">Startup India</li>
+                <li className="tag__item play green">Tax Exemption</li>
+                <li className="tag__item play green">MSME Registration</li>
+                <li className="tag__item play green">GEM Registration</li>
+                <li className="tag__item play green">ZED, ISO & IEC</li>
               </ul>
             </Fade>
           </div>
@@ -127,31 +106,27 @@ export default function PracticePage() {
             <img className="postcard__img" src={cardImg5} alt="Human Resources & Organizational Development" />
           </div>
           <div className="postcard__text">
-            <h1 className="postcard__title hov-yellow">HUMAN RESOURCES & ORGANIZATIONAL DEVELOPMENT</h1>
+            <h1 className="postcard__title hov-yellow">DIGITAL MARKETING SOLUTIONS:</h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
             </div>
             <div className="postcard__bar" />
             <div className="postcard__preview-txt">
-              We deliver comprehensive HR solutions that include workforce planning,
-              organizational development, and effective labor relations strategies to create a thriving work environment.
+              Enhance your online presence with our digital marketing services, including social media marketing, SEO & SEM, Google Ads, content creation, and competitive analysis.
             </div>
             <Fade triggerOnce damping={0.1} cascade>
               <ul className="postcard__tagbox">
-                <li className="tag__item play yellow">Workforce Planning</li>
-                <li className="tag__item play yellow">HR Policy Development</li>
-                <li className="tag__item play yellow">Talent Acquisition</li>
-                <li className="tag__item play yellow">Employee Engagement</li>
-                <li className="tag__item play yellow">Training & Development</li>
-                <li className="tag__item play yellow">Organizational Restructuring</li>
-                <li className="tag__item play yellow">Labor Relations Consulting</li>
-                <li className="tag__item play yellow">Performance Management</li>
+                <li className="tag__item play yellow">Social Media Marketing</li>
+                <li className="tag__item play yellow">SEO & SEM</li>
+                <li className="tag__item play yellow">Google Ads</li>
+                <li className="tag__item play yellow">Content Creation</li>
+                <li className="tag__item play yellow">Competitive Analysis</li>
               </ul>
             </Fade>
           </div>
         </article>
 
-        <article className="postcard dark blue" id="company-formation">
+        {/* <article className="postcard dark blue" id="company-formation">
           <div className="postcard__img_link">
             <img className="postcard__img" style={{ backgroundPosition: 'right' }} src={cardImg3} alt="Company Formation & Corporate Services" />
           </div>
@@ -213,7 +188,7 @@ export default function PracticePage() {
               </ul>
             </Fade>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );

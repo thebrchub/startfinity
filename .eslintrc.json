@@ -19,6 +19,7 @@
   ],
   "plugins": ["react"],
   "rules": {
+    "linebreak-style": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",
