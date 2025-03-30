@@ -21,6 +21,8 @@
   "rules": {
     "linebreak-style": "off",
     "no-unused-vars": "off",
+    "react/jsx-tag-spacing": "off",
+    "no-multiple-empty-lines": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",
