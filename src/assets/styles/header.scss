@@ -80,7 +80,7 @@ h1 {
     -webkit-text-stroke-color: rgba(9, 180, 232, 0.66);
     font-size: 4.5rem;
     color: rgb(4, 227, 231);
-    background: rgba(0, 0, 0, 0.6);
+    // background: rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -124,7 +124,7 @@ h1 {
 #nav {
   display: flex;
   flex-wrap: wrap;
-  background: rgb(0 0 0 / 60%);
+  // background: rgb(0 0 0 / 60%);
 
   .nav-items li a {
     text-decoration: none;
@@ -207,9 +207,9 @@ h1 {
     padding: 5px 10px;
   }
   
-  .transparent {
-    background: rgb(0 0 0 / 60%);
-  }
+  // .transparent {
+  //   background: rgb(0 0 0 / 60%);
+  // }
 
   .black {
     background: black;
