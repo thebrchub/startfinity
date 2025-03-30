@@ -81,7 +81,7 @@ export default function Header() {
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
-              AREAS
+              SERVICES
             </NavLink>
           </li>
           <li style={{ "--animation-order": 5 }}>
@@ -90,7 +90,7 @@ export default function Header() {
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
-              PROCEDURES
+              PROCESS
             </NavLink>
           </li>
           <li style={{ "--animation-order": 6 }}>
