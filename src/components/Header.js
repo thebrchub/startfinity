@@ -104,7 +104,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 7 }}>
             <NavLink
-              to="/kontakt#contact-form"
+              to="/kontakt#kontakt-forma"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -171,7 +171,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 7 }}>
             <NavLink
-              to="/kontakt#contact-form"
+              to="/kontakt#kontakt-forma"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               CONTACT
@@ -193,7 +193,7 @@ export default function Header() {
           <span id="hero-title">
             <br />
           </span>
-          <a href="/kontakt#contact-form" className="consultation-btn">
+          <a href="/kontakt#kontakt-forma" className="consultation-btn">
             SCHEDULE A CONSULTATION
           </a>
           <hr className="hor-linez" />
@@ -203,11 +203,7 @@ export default function Header() {
       <Bounce triggerOnce>
         <div id="nav-footer">
           <div>
-            <h2> hi                           </h2>
-            <i>
-              <MdLocationOn className="icon" />
-              Location
-            </i>
+            <h2>           </h2>
           </div>
           <div>
             <h2>               </h2>
