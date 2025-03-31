@@ -104,7 +104,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 7 }}>
             <NavLink
-              to="/kontakt#kontakt-forma"
+              to="/kontakt#contact-form"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -171,7 +171,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 7 }}>
             <NavLink
-              to="/kontakt#kontakt-forma"
+              to="/kontakt#contact-form"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               CONTACT
@@ -193,7 +193,7 @@ export default function Header() {
           <span id="hero-title">
             <br />
           </span>
-          <a href="/kontakt#kontakt-forma" className="consultation-btn">
+          <a href="/kontakt#contact-form" className="consultation-btn">
             SCHEDULE A CONSULTATION
           </a>
           <hr className="hor-linez" />
