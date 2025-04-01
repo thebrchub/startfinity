@@ -2,7 +2,6 @@
 import React, { useState, useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import emailjs from '@emailjs/browser';
 import { Zoom } from 'react-awesome-reveal';
 import { AiFillPhone, AiOutlineGlobal } from 'react-icons/ai';
 import { MdLocationOn, MdEmail } from 'react-icons/md';
@@ -12,32 +11,54 @@ import SEO from './SEO';
 export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [mobile, setMobile] = useState(''); // Added state for Mobile No.
+  const [mobile, setMobile] = useState('');
   const [message, setMessage] = useState('');
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        'service_9ogbfb4',
-        'template_5h2n3mg',
-        form.current,
-        'PDMh0hm3n7vaRzhYf'
-      )
-      .then(() => {
-        toast.success(
-          'Your email was sent successfully. Expect a response within 24 hours.',
-          {
-            position: toast.POSITION.TOP_CENTER,
-          }
-        );
-        setName('');
-        setEmail('');
-        setMobile(''); // Clear Mobile No. field after submission
-        setMessage('');
-      });
+    const payload = {
+      name,
+      email,
+      mobile,
+      message,
+    };
+
+    try {
+      const response = await fetch(
+        'https://email-service-ytdv.onrender.com/send/mail',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      toast.success(
+        'Your email was sent successfully. Expect a response within 24 hours.',
+        {
+          position: toast.POSITION.TOP_CENTER,
+        }
+      );
+      setName('');
+      setEmail('');
+      setMobile('');
+      setMessage('');
+    } catch (error) {
+      toast.error(
+        'Something went wrong. Please try again later. If the issue persists, contact us directly at startfinitynavigator@gmail.com',
+        {
+          position: toast.POSITION.TOP_CENTER,
+        }
+      );
+    }
   };
 
   return (
@@ -56,21 +77,33 @@ export default function ContactForm() {
             <h3 className="new-form-h3">Information</h3>
             <ul>
               <li>
-                <p className="form-col-one"><span><MdLocationOn /></span></p>
+                <p className="form-col-one">
+                  <span>
+                    <MdLocationOn />
+                  </span>
+                </p>
                 <p className="form-col-two">
                   <i>Address: </i>
                   565/43, Gokulchand Kastur, Chandni, Navi Chali, Civil Hospital, Ahmedabad, Ahmadabad City, Gujarat, India, 380016
                 </p>
               </li>
               <li>
-                <p className="form-col-one"><span><AiFillPhone /></span></p>
+                <p className="form-col-one">
+                  <span>
+                    <AiFillPhone />
+                  </span>
+                </p>
                 <p className="form-col-two">
                   <i>Phone: </i>
                   +91 91571 42657
                 </p>
               </li>
               <li>
-                <p className="form-col-one"><span><MdEmail /></span></p>
+                <p className="form-col-one">
+                  <span>
+                    <MdEmail />
+                  </span>
+                </p>
                 <p className="form-col-two">
                   <i>Email: </i>
                   <a className="new-form-href" href="mailto:startfinitynavigator@gmail.com">
@@ -79,7 +112,11 @@ export default function ContactForm() {
                 </p>
               </li>
               <li>
-                <p className="form-col-one"><span><AiOutlineGlobal /></span></p>
+                <p className="form-col-one">
+                  <span>
+                    <AiOutlineGlobal />
+                  </span>
+                </p>
                 <p className="form-col-two">
                   <i>Web: </i>
                   <a className="new-form-href" href="https://www.startfinitynavigator.com">
@@ -115,11 +152,11 @@ export default function ContactForm() {
               </p>
               <p className="full">
                 <input
-                  type="tel"// Changed from number to tel for better mobile support
+                  type="text"
                   name="mobile"
                   placeholder="Mobile No."
-                  onChange={(e) => setMobile(e.target.value)} // Updated state variable
-                  value={mobile} // Updated state variable
+                  onChange={(e) => setMobile(e.target.value)}
+                  value={mobile}
                   required
                 />
               </p>
@@ -134,7 +171,9 @@ export default function ContactForm() {
                 />
               </p>
               <p className="full-flex-center">
-                <button type="submit" className="control-btn">Send</button>
+                <button type="submit" className="control-btn">
+                  Send
+                </button>
               </p>
               <ToastContainer />
             </form>
@@ -144,4 +183,3 @@ export default function ContactForm() {
     </Zoom>
   );
 }
-
