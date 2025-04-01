@@ -9,6 +9,7 @@ import cardImg4 from '../assets/images/card-img-3.jpg';
 import cardImg5 from '../assets/images/card-img-4.jpg';
 // import cardImg7 from '../assets/images/card-img-7.jpg';
 
+
 export default function PracticePage() {
   return (
     <section className="practice-page-section dark" id="lista-oblasti">
@@ -28,7 +29,7 @@ export default function PracticePage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-red">
-              Kick Start Your Business<br />
+              KICK START YOUR BUSINESS<br />
               
             </h1>
             <div className="postcard__subtitle small">
@@ -49,6 +50,8 @@ export default function PracticePage() {
             </Fade>
           </div>
         </article>
+
+        
 
         <article className="postcard dark blue" id="contracts-compliance">
           <div className="postcard__img_link">

@@ -33,7 +33,7 @@ export default function ProceduralPage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-yellow">
-              Select Your Plan
+              SELECT YOUR PLAN
               <br />
              
             </h1>
@@ -64,7 +64,7 @@ export default function ProceduralPage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-blue">
-              Connect with An Expert
+              CONNECT WITH AN EXPERT
               <br />
               
             </h1>
@@ -95,7 +95,7 @@ export default function ProceduralPage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-green">
-              Customize Your Strategy
+              CUSTOMIZE YOUR STARTEGY
               <br />
               
             </h1>
@@ -126,7 +126,7 @@ export default function ProceduralPage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-red">
-              Achieve Success
+              ARCHIEVE SUCCESS
               <br />
               
             </h1>
