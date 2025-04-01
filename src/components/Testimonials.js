@@ -18,7 +18,7 @@ const testimonialData = [
     id: "t9",
     title: "Effortless GST Returns & Compliance Management",
     text: "We struggled with GST filings and regulatory compliances until we reached out to Startfinity Navigator. Their GST Return service is accurate, quick, and hassle-free!",
-    author: "Founder: SHIVANAND BURLI, BLAZING RENDER GRAPHICS AND HUU LLP",
+    author: "Founder: Shivanand Burli, Blazing Render Creation Hub LLP",
     rating: 5,
   },
   {
@@ -40,7 +40,7 @@ const testimonialData = [
     title: "STARTUP INDIA CERTIFICATE",
     text: "Startfinity Navigator played a crucial role in helping us secure Startup India Funding. Their strategic guidance, business plan support, and investor connections were instrumental in our success. Congratulations on being part of STARTUP INDIA CERTIFICATE!",
     author: "Founder: Rajesh Suri, EcoSphere Innovations",
-    rating: 4,
+    rating: 5,
   },
   {
     id: "t5",
@@ -54,7 +54,7 @@ const testimonialData = [
     title: "HER STARTUP 4.0",
     text: "With Startfinity Navigator's seamless assistance, we successfully launched Her Startup 4.0 and accessed our funding. They guided us at every step, ensuring no detail was overlooked. Congratulations on being part of HER STARTUP 4.0!",
     author: "Founder: Priya Mehta, GreenWay Ventures",
-    rating: 4,
+    rating: 5,
   },
   {
     id: "t7",
@@ -75,7 +75,7 @@ const testimonialData = [
     title: "Seamless Tax Exemption Certificate Process",
     text: "We were unsure about the Tax Exemption Certificate process until we encountered Startfinity Navigator. Their team explained everything step by step!",
     author: "Founder: Rajesh Suri, EcoSphere Innovations",
-    rating: 4,
+    rating: 5,
   },
   {
     id: "t11",

@@ -59,22 +59,22 @@ export default function ContactForm() {
                 <p className="form-col-one"><span><MdLocationOn /></span></p>
                 <p className="form-col-two">
                   <i>Address: </i>
-                  Gandhinagr, Ahmedabad, Gujarat, India
+                  565/43, Gokulchand Kastur, Chandni, Navi Chali, Civil Hospital, Ahmedabad, Ahmadabad City, Gujarat, India, 380016
                 </p>
               </li>
               <li>
                 <p className="form-col-one"><span><AiFillPhone /></span></p>
                 <p className="form-col-two">
                   <i>Phone: </i>
-                  +91 12345 67890
+                  +91 91571 42657
                 </p>
               </li>
               <li>
                 <p className="form-col-one"><span><MdEmail /></span></p>
                 <p className="form-col-two">
                   <i>Email: </i>
-                  <a className="new-form-href" href="mailto:info@startfinitynavigator.com">
-                    info@startfinitynavigator.com
+                  <a className="new-form-href" href="mailto:startfinitynavigator@gmail.com">
+                    startfinitynavigator@gmail.com
                   </a>
                 </p>
               </li>
