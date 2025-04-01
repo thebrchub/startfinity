@@ -1,0 +1,119 @@
+/* Overall section style */
+.testimonial-section {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  /* Heading with orange lines on each side */
+  .heading-2 {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 60px;
+      height: 2px;
+      background-color: #f26100;
+    }
+  
+    &::before {
+      right: 100%;
+      margin-right: 15px;
+      transform: translateY(-50%);
+    }
+  
+    &::after {
+      left: 100%;
+      margin-left: 15px;
+      transform: translateY(-50%);
+    }
+  }
+  
+  /* Grid layout for testimonial cards */
+  .testimonial-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Individual testimonial card */
+  .testimonial-card {
+    background-color: #ffffff;
+    border: 2px solid #0076bd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 118, 189, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0, 118, 189, 0.3);
+    }
+  }
+  
+  /* Card content styling */
+  .testimonial-card-content {
+    color: #003366;
+    text-align: left;
+  }
+  
+  /* Testimonial title styling */
+  .testimonial-title {
+    font-size: 1.25rem;
+    color: #0076bd;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Divider below the testimonial title */
+  .testimonial-divider {
+    width: 50px;
+    height: 3px;
+    background-color: #0076bd;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Main testimonial text */
+  .testimonial-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Star rating container */
+  .star-rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Author information styling */
+  .testimonial-author {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: right;
+  }
+  .show-more-arrow {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0076bd;
+    font-weight: 600;
+    font-size: 1rem;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+    

@@ -30,11 +30,11 @@ export default function Header() {
 
   return (
     <header id="header">
-      <div id="banner">
+      {/* <div id="banner">
         <p>
           Let Startfinity Navigator Private Limited handle the formalities while you focus on growing your vision.
         </p>
-      </div>
+      </div> */}
       <div id="burger-logo-wrapper" className={`${burgerMenuColor}`}>
         <Hamburger toggled={isOpen} onToggle={handleClick} />
         <a href="/">
@@ -66,7 +66,7 @@ export default function Header() {
               ABOUT US
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 3 }}>
+          {/* <li style={{ "--animation-order": 3 }}>
             <NavLink
               to="/blogovi#blog-lista"
               onClick={handleClick}
@@ -74,7 +74,7 @@ export default function Header() {
             >
               BLOG
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 4 }}>
             <NavLink
               to="/pravne-oblasti#lista-oblasti"
@@ -90,10 +90,10 @@ export default function Header() {
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
-              PROCEDURES
+              PROCESS
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 6 }}>
+          {/* <li style={{ "--animation-order": 6 }}>
             <NavLink
               to="/tarifa#tarifa-info"
               onClick={handleClick}
@@ -101,7 +101,7 @@ export default function Header() {
             >
               PRICING
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 7 }}>
             <NavLink
               to="/kontakt#contact-form"
@@ -137,14 +137,14 @@ export default function Header() {
               ABOUT US
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 3 }}>
+          {/* <li style={{ "--animation-order": 3 }}>
             <NavLink
               to="/blogovi#blog-lista"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               BLOG
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 4 }}>
             <NavLink
               to="/pravne-oblasti#lista-oblasti"
@@ -158,17 +158,17 @@ export default function Header() {
               to="/pravni-postupci#lista-postupaka"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
-              PROCEDURES
+              PROCESS
             </NavLink>
           </li>
-          <li style={{ "--animation-order": 6 }}>
+          {/* <li style={{ "--animation-order": 6 }}>
             <NavLink
               to="/tarifa#tarifa-info"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               PRICING
             </NavLink>
-          </li>
+          </li> */}
           <li style={{ "--animation-order": 7 }}>
             <NavLink
               to="/kontakt#contact-form"

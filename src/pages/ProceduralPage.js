@@ -11,15 +11,15 @@ export default function ProceduralPage() {
   return (
     <section className="practice-page-section dark" id="lista-postupaka">
       <SEO
-        title="Startfinity Navigator Private Limited | Business Procedures | Global Advisory"
-        keywords="business procedures, company setup, contract negotiation, compliance, risk management, corporate formation, restructuring, advisory services"
-        description="Explore the range of business procedures and consultancy services offered by Startfinity Navigator Private Limited, including business setup, contract negotiation, compliance management, and strategic advisory."
+        title="Startfinity Navigator Private Limited | Business Process | Global Advisory"
+        keywords="business Process, company setup, contract negotiation, compliance, risk management, corporate formation, restructuring, advisory services"
+        description="Explore the range of business Process and consultancy services offered by Startfinity Navigator Private Limited, including business setup, contract negotiation, compliance management, and strategic advisory."
         name="Startfinity Navigator Private Limited | Business Consultancy"
         type="website"
       />
       <div className="container py-4">
         <h1 className="h1 text-center" id="pageHeaderTitle">
-          BUSINESS PROCEDURES
+          BUSINESS Process
         </h1>
 
         {/* Article 1: Select Your Plan */}

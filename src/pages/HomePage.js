@@ -4,7 +4,8 @@ import PracticeArea from '../components/PracticeArea';
 import Contact from '../components/Contact';
 import Quote from '../components/Quote';
 import SEO from '../components/SEO';
-import Blogs from '../components/Blogs';
+// import Blogs from '../components/Blogs';
+import Testimonials from '../components/Testimonials';
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <About />
       <Quote />
       <PracticeArea />
+      <Testimonials />
       <Contact />
       <br/>
       {/* <Blogs /> */}

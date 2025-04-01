@@ -182,3 +182,80 @@
     padding: 30px;
   }
 }
+
+
+/* Container holding all the testimonial cards */
+.postcard-container {
+  display: grid;
+  /* 3 columns on larger screens, automatically stack on smaller screens */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Each postcard card */
+.postcard {
+  background-color: #ffffff;       /* Light background */
+  border-radius: 8px;             /* Slightly rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Subtle shadow */
+  color: #333;                    /* Dark text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  /* Optional hover effect */
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+}
+
+/* The text wrapper inside each card */
+.postcard__text {
+  padding: 1.25rem;
+}
+
+/* Title of each testimonial */
+.postcard__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0076bd; /* Adjust as desired */
+  margin-bottom: 0.5rem;
+}
+
+/* Horizontal bar under the title */
+.postcard__bar {
+  width: 40px;
+  height: 3px;
+  background-color: #0076bd; /* Same color as title for consistency */
+  margin-bottom: 1rem;
+}
+
+/* Main testimonial text */
+.postcard__preview-txt {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-bottom: 0.75rem;
+  color: #555; /* Slightly lighter than #333 for readability */
+}
+
+/* Tag box for stars */
+.postcard__tagbox {
+  margin-bottom: 0.75rem;
+
+  .tag__item {
+    color: #f39c12; /* Gold-ish star color */
+    font-size: 1.2rem;
+  }
+}
+
+/* Author / Founder line */
+.small {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: auto; /* Pushes author text to the bottom if needed */
+}
