@@ -8,7 +8,7 @@ const Quote = () => (
     <Parallax strength={300} bgImage={bg} bgImageAlt="quote">
       <div className="parallax-content">
         <div className="parallax-text">
-          &quot;Success is a journey fueled by vision and commitment.&quot;
+          &quot;Success is a journey fueled by vision and commitment&quot;
           <br />
           <i>Your trusted partner in achieving business excellence.</i>
         </div>
