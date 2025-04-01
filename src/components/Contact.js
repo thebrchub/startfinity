@@ -1,46 +1,63 @@
 /* eslint-disable comma-dangle */
+/* eslint-disable object-curly-newline */
 import React, { useState, useRef } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import emailjs from "@emailjs/browser";
+import {
+  ToastContainer,
+  toast
+} from "react-toastify";
 import { AttentionSeeker } from "react-awesome-reveal";
 import "react-toastify/dist/ReactToastify.css";
 import "../assets/styles/contact.scss";
-import {
-  Tab,
-  Tabs,
-  TabList,
-  TabPanel,
-} from "react-tabs";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
+  const [mobile, setMobile] = useState("");
   const [message, setMessage] = useState("");
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_9ogbfb4",
-        "template_5h2n3mg",
-        form.current,
-        "PDMh0hm3n7vaRzhYf",
-      )
-      .then(() => {
-        toast.success(
-          "Your email was sent successfully. Expect a response within 24 hours.",
-          {
-            position: toast.POSITION.TOP_CENTER,
-          }
-        );
-        setName("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
+    const payload = {
+      name,
+      email,
+      mobile,
+      message,
+    };
+
+    try {
+      const response = await fetch(
+        "https://email-service-ytdv.onrender.com/send/mail",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      toast.success(
+        "Your email was sent successfully. Expect a response within 24 hours.",
+        {
+          position: toast.POSITION.TOP_CENTER,
+        }
+      );
+      setName("");
+      setEmail("");
+      setMobile("");
+      setMessage("");
+    } catch (error) {
+      toast.error("Something went wrong. Please try again later.", {
+        position: toast.POSITION.TOP_CENTER,
       });
+    }
   };
 
   return (
@@ -84,8 +101,8 @@ export default function Contact() {
                 name="mobile"
                 className="form-control full"
                 placeholder="Mobile No."
-                onChange={(e) => setSubject(e.target.value)}
-                value={subject}
+                onChange={(e) => setMobile(e.target.value)}
+                value={mobile}
                 required
               />
               <textarea
