@@ -46,7 +46,7 @@ export default function Footer() {
                   >
                     <MdLocationOn className="footer-icon" />
                     <i className="footer-info-i">
-                      123 Business Park, Mumbai, India
+                      123 Business Park, Gujarat, India
                     </i>
                   </a>
                 </li>
