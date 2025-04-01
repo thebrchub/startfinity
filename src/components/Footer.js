@@ -46,24 +46,24 @@ export default function Footer() {
                   >
                     <MdLocationOn className="footer-icon" />
                     <i className="footer-info-i">
-                      123 Business Park, Gujarat, India
+                      565/43, Gokulchand Kastur, Chandni, Navi Chali, Civil Hospital, Ahmedabad, Gujarat, India, 380016
                     </i>
                   </a>
                 </li>
                 <li className="contact-li">
                   <span className="footer-span contact-a flex-center-a">
                     <AiFillPhone className="footer-icon" />
-                    <i className="footer-info-i">+91 12345 67890</i>
+                    <i className="footer-info-i">+91 91571 42657</i>
                   </span>
                 </li>
                 <li className="contact-li">
                   <a
-                    href="mailto:info@startfinitynavigator.com"
+                    href="mailto:startfinitynavigator@gmail.com"
                     className="contact-a flex-center-a"
                   >
                     <MdEmail className="footer-icon" />
                     <i className="footer-info-i">
-                      info@startfinitynavigator.com
+                      startfinitynavigator@gmail.com
                     </i>
                   </a>
                 </li>

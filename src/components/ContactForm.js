@@ -12,7 +12,7 @@ import SEO from './SEO';
 export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
+  const [mobile, setMobile] = useState(''); // Added state for Mobile No.
   const [message, setMessage] = useState('');
   const form = useRef();
 
@@ -35,7 +35,7 @@ export default function ContactForm() {
         );
         setName('');
         setEmail('');
-        setSubject('');
+        setMobile(''); // Clear Mobile No. field after submission
         setMessage('');
       });
   };
@@ -115,11 +115,11 @@ export default function ContactForm() {
               </p>
               <p className="full">
                 <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  onChange={(e) => setSubject(e.target.value)}
-                  value={subject}
+                  type="tel"// Changed from number to tel for better mobile support
+                  name="mobile"
+                  placeholder="Mobile No."
+                  onChange={(e) => setMobile(e.target.value)} // Updated state variable
+                  value={mobile} // Updated state variable
                   required
                 />
               </p>
@@ -144,3 +144,4 @@ export default function ContactForm() {
     </Zoom>
   );
 }
+

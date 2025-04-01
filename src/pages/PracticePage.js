@@ -5,8 +5,8 @@ import '../assets/styles/style-pages/practice_page.scss';
 import cardImg1 from '../assets/images/card-img-1.png';
 import cardImg2 from '../assets/images/card-img-2.jpg';
 // import cardImg3 from '../assets/images/corporate.jpg';
-import cardImg4 from '../assets/images/card-img-4.jpg';
-import cardImg5 from '../assets/images/card-img-5.jpg';
+import cardImg4 from '../assets/images/card-img-3.jpg';
+import cardImg5 from '../assets/images/card-img-4.jpg';
 // import cardImg7 from '../assets/images/card-img-7.jpg';
 
 export default function PracticePage() {
@@ -28,8 +28,8 @@ export default function PracticePage() {
           </div>
           <div className="postcard__text">
             <h1 className="postcard__title hov-red">
-              Kick Start Your<br />
-              Business
+              Kick Start Your Business<br />
+              
             </h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
@@ -81,7 +81,7 @@ export default function PracticePage() {
             <img className="postcard__img" src={cardImg4} alt="Family Business & Succession Planning" />
           </div>
           <div className="postcard__text__long">
-            <h1 className="postcard__title hov-green">CERTIFICATION:</h1>
+            <h1 className="postcard__title hov-green">CERTIFICATION</h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
             </div>
@@ -106,7 +106,7 @@ export default function PracticePage() {
             <img className="postcard__img" src={cardImg5} alt="Human Resources & Organizational Development" />
           </div>
           <div className="postcard__text">
-            <h1 className="postcard__title hov-yellow">DIGITAL MARKETING SOLUTIONS:</h1>
+            <h1 className="postcard__title hov-yellow">DIGITAL MARKETING SOLUTIONS</h1>
             <div className="postcard__subtitle small">
               LEARN MORE...
             </div>
