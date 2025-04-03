@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         <i className="copyright-alert">
-          All rights reserved &copy; 2023 | Startfinity Navigator Private Limited
+          All rights reserved &copy; 2025 | Startfinity Navigator Private Limited
         </i>
       </div>
     </footer>
