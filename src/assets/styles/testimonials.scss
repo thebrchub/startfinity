@@ -14,30 +14,8 @@
     color: #000;
     margin: 2rem auto;
     padding: 0 1rem;
-  
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      width: 60px;
-      height: 2px;
-      background-color: #f26100;
-    }
-  
-    &::before {
-      right: 100%;
-      margin-right: 15px;
-      transform: translateY(-50%);
-    }
-  
-    &::after {
-      left: 100%;
-      margin-left: 15px;
-      transform: translateY(-50%);
-    }
   }
-  
+    
   /* Grid layout for testimonial cards */
   .testimonial-cards {
     display: grid;

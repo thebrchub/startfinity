@@ -13,21 +13,21 @@
     color: #000;
   }
   
-  h2:not(:empty)::before {
-    margin-right: .25em;
-  }
+  // h2:not(:empty)::before {
+  //   margin-right: 10px;
+  // }
   
-  h2:not(:empty)::after {
-    margin-left: .25em;
-  }
+  // h2:not(:empty)::after {
+  //   margin-left: -10px;
+  // }
 
-  h2:before,
-  h2:after {
-    content: '';
-    width: 20%;
-    height: 3px;
-    background-color: chocolate;
-  }
+  // h2:before,
+  // h2:after {
+  //   content: '';
+  //   width: 20%;
+  //   height: 3px;
+  //   background-color: chocolate;
+  // }
 
   .cards{
     display: grid;
