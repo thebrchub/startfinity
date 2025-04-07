@@ -69,7 +69,7 @@ export default function Footer() {
                 </li>
                 <br/>
 
-                <div className="social-links">
+                {/* <div className="social-links">
                   <a
                     href="https://www.facebook.com/startfinitynavigator"
                     target="_blank"
@@ -78,7 +78,7 @@ export default function Footer() {
                   >
                     <BsFacebook className="fab fa-facebook" />
                   </a>
-                </div>
+                </div> */}
               </ul>
             </div>
             <div className="footer-col">

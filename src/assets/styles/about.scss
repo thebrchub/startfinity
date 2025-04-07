@@ -5,6 +5,7 @@
   justify-content: center;
   background: #f1f1f1;
   background: #fff;
+  
   // background: rgba(122, 59, 14, 0.255);
   // background: rgb(41, 25, 5);
 
@@ -16,6 +17,8 @@
   background-color: #fdfdfd;
   overflow: hidden;
   padding: 50px 0;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .inner-container{
@@ -74,6 +77,24 @@
       padding: 80px;
     }
 }
+@media only screen and (max-width:1024px){
+  .about-wrapper {
+      padding: 0;
+  }
+  .inner-container {
+    .skills{
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 20px;
+      padding: 60px 100px;
+    }
+      h2 {
+        font-size: 26px;
+      }
+  }
+}
+
 
 @media only screen and (max-width: 1000px){
   .about-wrapper {
@@ -120,3 +141,10 @@
     }
   }  
 }
+@media only screen and (min-width: 1024px) {
+  .inner-container {
+    padding: 60px 100px;
+    padding-top: 300px;
+  }
+}
+

@@ -16,4 +16,12 @@
   font-family: auto;
   font-size: 45px;
   word-spacing: 1.8px;
+
+@media (max-width: 768px) {
+  width: 95%;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 1.7;
+  word-spacing: 0.7px;
+}
 }
