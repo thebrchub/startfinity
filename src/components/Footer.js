@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         <i className="copyright-alert">
-          All rights reserved &copy; 2025 | Startfinity Navigator Private Limited
+          All rights reserved &copy; 2025 | Startfinity Navigator Private Limited | This Website is Developed by <strong><a href="https://www.thebrchub.com" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "underline" }}>BRC Hub LLP</a></strong>
         </i>
       </div>
     </footer>

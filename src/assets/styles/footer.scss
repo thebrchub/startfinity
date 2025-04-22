@@ -57,13 +57,16 @@
   padding: 70px 0;
 
   .copyright-alert {
-    color: rgba(255, 255, 255, 0.61);
-    position: absolute;
-    font-size: small;
-    padding: 0 10px;
-    right: 0;
-    bottom: 0;
-  }
+  color: rgba(255, 255, 255, 0.61);
+  font-size: small;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute; // changed from absolute to relative
+  bottom: 0;
+  display: block;
+}
+
 }
 
 .container {
