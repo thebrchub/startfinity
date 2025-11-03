@@ -48,19 +48,19 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/o-meni" element={<AboutPage />} />
-            <Route path="/pravne-oblasti" element={<PracticePage />} />
-            <Route path="/pravni-postupci" element={<ProceduralPage />} />
-            <Route path="/kontakt" element={<ContactPage />} />
-            <Route path="/lokacija" element={<LocationPage />} />
-            <Route path="/privatnost-informacija" element={<PrivacyPolicy />} />
-            <Route path="/uvjeti-pružanja-usluge" element={<TermsOfService />} />
-            <Route path="/najčešća-pitanja" element={<Faq />} />
-            <Route path="/tarifa" element={<Tariff />} />
-            <Route path="/blogovi" element={<BlogPagination />} />
-            <Route path="/advokatr-admin-login" element={<Login />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/services" element={<PracticePage />} />
+            <Route path="/process" element={<ProceduralPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/location" element={<LocationPage />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/tariff" element={<Tariff />} />
+            <Route path="/blog" element={<BlogPagination />} />
+            <Route path="/alogin" element={<Login />} />
             <Route element={<ProtectedRoute />}>
-              <Route path="/advokatr-admin-blogs" element={<RichTextEditor />} />
+              <Route path="/admin-blogs" element={<RichTextEditor />} />
             </Route>
             <Route path="/:url/:id" element={<DynamicBlogRenderer />} />
           </Routes>

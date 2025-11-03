@@ -18,9 +18,9 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Our Company</h4>
               <ul className="nav-items">
-                <li><a href="/o-meni#opsirnije">&gt; About Us</a></li>
-                <li><a href="/pravne-oblasti#lista-oblasti">&gt; Our Services</a></li>
-                <li><a href="/pravni-postupci#lista-postupaka">&gt; Process</a></li>
+                <li><a href="/about">&gt; About Us</a></li>
+                <li><a href="/services">&gt; Our Services</a></li>
+                <li><a href="/process">&gt; Process</a></li>
                 {/* <li><a href="/privacy#policy">&gt; Privacy Policy</a></li>
                 <li><a href="/terms#conditions">&gt; Terms of Service</a></li> */}
               </ul>
@@ -104,7 +104,7 @@ export default function Footer() {
         </div>
 
         <i className="copyright-alert">
-          All rights reserved &copy; 2025 | Startfinity Navigator Private Limited | This Website is Developed by <strong><a href="https://www.thebrchub.com" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "underline" }}>BRC Hub LLP</a></strong>
+          All rights reserved &copy; 2025 | Startfinity Navigator Private Limited | This Website is Developed by <strong><a href="https://www.thebrchub.tech" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "underline" }}>BRC Hub LLP</a></strong>
         </i>
       </div>
     </footer>

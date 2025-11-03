@@ -59,7 +59,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 2 }}>
             <NavLink
-              to="/o-meni#opsirnije"
+              to="/about"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -77,7 +77,7 @@ export default function Header() {
           </li> */}
           <li style={{ "--animation-order": 4 }}>
             <NavLink
-              to="/pravne-oblasti#lista-oblasti"
+              to="/services"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -86,7 +86,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 5 }}>
             <NavLink
-              to="/pravni-postupci#lista-postupaka"
+              to="/process"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -104,7 +104,7 @@ export default function Header() {
           </li> */}
           <li style={{ "--animation-order": 7 }}>
             <NavLink
-              to="/kontakt#contact-form"
+              to="/contact"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -113,7 +113,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 8 }}>
             <NavLink
-              to="/lokacija#lokacija-mapa"
+              to="/location"
               onClick={handleClick}
               className={({ isActive }) => (isActive ? "active mobile-li" : "inactive mobile-li")}
             >
@@ -131,7 +131,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 2 }}>
             <NavLink
-              to="/o-meni#opsirnije"
+              to="/about"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               ABOUT US
@@ -147,7 +147,7 @@ export default function Header() {
           </li> */}
           <li style={{ "--animation-order": 4 }}>
             <NavLink
-              to="/pravne-oblasti#lista-oblasti"
+              to="/services"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               SERVICES
@@ -155,7 +155,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 5 }}>
             <NavLink
-              to="/pravni-postupci#lista-postupaka"
+              to="/process"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               PROCESS
@@ -171,7 +171,7 @@ export default function Header() {
           </li> */}
           <li style={{ "--animation-order": 7 }}>
             <NavLink
-              to="/kontakt#contact-form"
+              to="/contact"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               CONTACT
@@ -179,7 +179,7 @@ export default function Header() {
           </li>
           <li style={{ "--animation-order": 8 }}>
             <NavLink
-              to="/lokacija#lokacija-mapa"
+              to="/location"
               className={({ isActive }) => (isActive ? "active desktop-li" : "inactive desktop-li")}
             >
               LOCATION
@@ -193,7 +193,7 @@ export default function Header() {
           <span id="hero-title">
             <br />
           </span>
-          <a href="/kontakt#contact-form" className="consultation-btn">
+          <a href="/contact" className="consultation-btn">
             SCHEDULE A CONSULTATION
           </a>
           <hr className="hor-linez" />
