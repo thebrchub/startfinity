@@ -27,7 +27,7 @@ export default function PracticeArea() {
               <ReadMoreOrLess limit={56}>
                 We provide comprehensive support to launch your venture—from company registration and trademark filing to annual compliances, BIS certification, and Make in India guidance.
               </ReadMoreOrLess>
-              <a href="/pravne-oblasti#kick-start-your-business" className="card-button">
+              <a href="/services" className="card-button">
                 LEARN MORE
               </a>
             </div>
@@ -45,7 +45,7 @@ export default function PracticeArea() {
               <ReadMoreOrLess limit={56}>
                 Our experts help you access government grants &amp; loans, Startup India SEED Fund, MSME loans, state schemes, and connect with venture capital and angel investors.
               </ReadMoreOrLess>
-              <a href="/pravne-oblasti#funding-consultation" className="card-button">
+              <a href="/services" className="card-button">
                 LEARN MORE
               </a>
             </div>
@@ -63,7 +63,7 @@ export default function PracticeArea() {
               <ReadMoreOrLess limit={56}>
                 Obtain essential certifications including Startup India, Tax Exemption, MSME Registration, GEM Registration, and compliance with ZED, ISO &amp; IEC standards.
               </ReadMoreOrLess>
-              <a href="/pravne-oblasti#certification" className="card-button">
+              <a href="/services" className="card-button">
                 LEARN MORE
               </a>
             </div>
@@ -81,7 +81,7 @@ export default function PracticeArea() {
               <ReadMoreOrLess limit={56}>
                 Enhance your online presence with our digital marketing services, including social media marketing, SEO &amp; SEM, Google Ads, content creation, and competitive analysis.
               </ReadMoreOrLess>
-              <a href="/pravne-oblasti#digital-marketing" className="card-button">
+              <a href="/services" className="card-button">
                 LEARN MORE
               </a>
             </div>
@@ -99,7 +99,7 @@ export default function PracticeArea() {
               <ReadMoreOrLess limit={56}>
                 Our strategic advisory services provide actionable insights and tailored strategies to drive growth, innovation, and long-term success.
               </ReadMoreOrLess>
-              <a href="/pravne-oblasti#strategic-advisory" className="card-button">
+              <a href="/services" className="card-button">
                 LEARN MORE
               </a>
             </div>
@@ -117,7 +117,7 @@ export default function PracticeArea() {
               <ReadMoreOrLess limit={56}>
                 We analyze and streamline your business processes to enhance efficiency, reduce costs, and maximize overall performance.
               </ReadMoreOrLess>
-              <a href="/pravne-oblasti#operations-optimization" className="card-button">
+              <a href="/services" className="card-button">
                 LEARN MORE
               </a>
             </div>
