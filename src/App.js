@@ -24,21 +24,35 @@ export default function App() {
   const { pathname, hash, key } = useLocation();
 
   useEffect(() => {
-    // If not a hash link, scroll to top; otherwise scroll to id
-    if (hash === '') {
-      window.scrollTo(0, 0);
-    } else {
+    // Handle hash navigation first
+    if (hash !== '') {
       setTimeout(() => {
         const id = hash.replace('#', '');
         const element = document.getElementById(id);
         if (element) {
-          element.scrollIntoView();
+          element.scrollIntoView({ behavior: 'smooth' });
         }
-      }, 0);
+      }, 100);
+      return;
+    }
+
+    // Handle regular page navigation
+    if (pathname === '/') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      // For non-home pages, scroll past the header
+      setTimeout(() => {
+        const header = document.getElementById('header');
+        if (header) {
+          const headerHeight = header.offsetHeight;
+          window.scrollTo({
+            top: headerHeight,
+            behavior: 'smooth',
+          });
+        }
+      }, 100);
     }
   }, [pathname, hash, key]);
-
-  // Removed token verification logic
 
   return (
     <>
